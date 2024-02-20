@@ -11,12 +11,16 @@ Instructions
 ------------
 1. Install the addon. I'll put it up on AMO soon but you'll always be able
    to get the latest version
-   [here](https://github.com/mozmark/ringleader/blob/master/fx_pnh.xpi).
-2. Browse to your tool's configuration page. If you have ZAP with the
+   [here](https://github.com/x0f5c3/ringleader/blob/master/fx_pnh.xpi).
+
+   If you prefer to trust the original extension I forked it's [here](https://github.com/mozmark/ringleader/blob/master/fx_pnh.xpi).
+
+   
+3. Browse to your tool's configuration page. If you have ZAP with the
    Plug-n-Hack extension, you can do that by browsing to
    <http://localhost:8080/mitm>. You can set up any number of configurations
    for different tools and switch between them.
-3. Use your PnH provider.
+4. Use your PnH provider.
 
 You can switch between configurations (or clear them completely) using the
 *pnh config* command.
@@ -27,4 +31,7 @@ remove a configuration completely.
 
 Integrating your tools:
 ------------------------
-I've designed this to be easy to integrate support in other tools; documentation is in progress [here](https://github.com/mozmark/ringleader/blob/master/doc/main.md). You can also look to see how the Plug-n-Hack ZAP addon works.
+I've designed this to be easy to integrate support in other tools; documentation is in progress [here](https://github.com/x0f5c3/ringleader/blob/master/doc/main.md). You can also look to see how the Plug-n-Hack ZAP addon works.
+
+
+Here's [the original docs](https://github.com/mozmark/ringleader/blob/master/doc/main.md).
